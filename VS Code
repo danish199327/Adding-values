@@ -1,0 +1,17 @@
+let hatprice:string;
+let bootsprice:string; 
+let totalprice:number;
+hatprice = "100";
+
+console.log(`HAT PRICE:${hatprice}`);
+
+ bootsprice = "200";
+console.log(`BOOTS PRICE:${bootsprice}`);
+
+if (hatprice == bootsprice){
+    console.log("Prices are same");
+    }else{
+        console.log("Prices are different");
+    }
+totalprice = hatprice + bootsprice;
+console.log(`Total Price:${totalprice}`);
